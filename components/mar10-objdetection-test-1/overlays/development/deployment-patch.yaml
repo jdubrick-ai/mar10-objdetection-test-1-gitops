@@ -12,5 +12,5 @@ spec:
   template:
     spec:
       containers:
-        - image: quay.io/redhat-ai-dev/ai-template-bootstrap-app:latest # use pre-built to bootstrap
+        - image: quay.io/jdubrick-ai/mar10-objdetection-test-1:e47ef205e2c57c09bd00dc47a58136bda8e2ef12@sha256:3e5d174cf7a0c2a7fd1449ce5e2c812a1fcf151c3c3e49c9a3259ce890fde461 # use pre-built to bootstrap
           name: app-inference
